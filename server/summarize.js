@@ -13,7 +13,7 @@ export async function summarize(text) {
      const output = await generator(text)
 
      console.log("Resumo concluído com sucesso!")
-     return output[0].sumary_text
+     return output[0].summary_text
   } catch (error) {
 
     console.log("Não foi possível realizar o resumo ", error)
